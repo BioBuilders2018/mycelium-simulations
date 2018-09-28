@@ -5,6 +5,12 @@ Mycelium growth originates from a single spore, where branching starts. Here we 
 
 When the simulation is completed, several plots are produced. This includes summary plots of mycelium properties, an animation of the mycelium development and a density inspection.
 
+## Running the simulation
+The main code is located in `simulation_v7.R`, so run that. Libraries required are:
+* [stats](https://stat.ethz.ch/R-manual/R-devel/library/stats/html/00Index.html)
+* [scales](https://cran.r-project.org/web/packages/scales/index.html)
+* [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/)
+
 ## Animated letters
 For the fun of it, we can also simulate the letters in our team name for this year. The code for this exist in `letter_simulations.R` and the functions for each letter are defined in `letter_funcs.R`.
 

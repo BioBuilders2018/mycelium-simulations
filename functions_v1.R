@@ -204,3 +204,19 @@ perpendicularDistance <- function(x, xc, yc, R){
 
   # return(d <= R)
 }
+
+hyphae_hits_substrate <- function(hl, bbs){
+  m = length(hl)
+  h2b = matrix(0, m, dim(bbs)[1])
+  for (j in 1:m) {
+    hi = hl[[j]][c(3, 4)]
+    xSAT = (hi[1] <= bbs[,3]) & (bbs[,1] <= hi[1])
+    ySAT = (hi[2] <= bbs[,4]) & (bbs[,2] <= hi[2])
+    bbInds = which(xSAT & ySAT)
+    
+    h2b[j, bbInds] = 1
+    
+  }
+  return(h2b)
+  
+}

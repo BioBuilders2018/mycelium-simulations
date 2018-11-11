@@ -1,5 +1,5 @@
 
-This directory contains the code for hyphal growth simulation at the microscopic level as part of [DTU Biobuilders project for iGEM 2018](http://2018.igem.org/Team:DTU-Denmark).
+This directory contains the code for hyphal growth simulation at the microscopic level as part of [DTU Biobuilders project for iGEM 2018](http://2018.igem.org/Team:DTU-Denmark/GrowthModelling).
 # Hyphal growth simulations <img src="http://2018.igem.org/wiki/images/c/c9/T--DTU-Denmark--menu-icon-logo.png" align="right" alt="Hyphae hackers logo" />
 Mycelium growth originates from a single spore, where branching starts. Here we follow the development of the mycelium by simulating branch development during a specified time period. We focus on simulating hyphal movement through a space with homogenous substrate, hyphal tip extension and branching events and how the mycelium density/biomass changes over time.
 
